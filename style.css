@@ -1,0 +1,80 @@
+.custom-div-icon {
+    background: transparent;
+    border: none;
+}
+
+body, html {
+    margin: 0;
+    padding: 0;
+    height: 100%;
+    overflow: hidden;
+    font-family: Arial, sans-serif;
+}
+
+.full-screen {
+    height: 100%;
+    width: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+
+.ship-count-control {
+    background: white;
+    padding: 5px 10px;
+    border-radius: 5px;
+    box-shadow: 0 0 15px rgba(0, 0, 0, 0.2);
+    font-family: Arial, sans-serif;
+    font-size: 14px;
+}
+
+
+
+/* .chart-container {
+    position: absolute;
+    height: 60%;
+    width: 40%;
+    top: 0;
+    right: 0;
+    background-color: white;
+    z-index: 1000;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.hidden {
+    display: none;
+}
+
+button#toggle-chart {
+    position: absolute;
+    top: 50%;
+    right: 0;
+    transform: translate(50%, -50%);
+    z-index: 1001;
+    width: 30px;
+    height: 60px;
+    background-color: #007bff;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    font-size: 20px;
+    cursor: pointer;
+    transition: background-color 0.3s, transform 0.3s;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+button#toggle-chart:hover {
+    background-color: #0056b3;
+}
+
+button#toggle-chart.arrow {
+    transform: rotate(180deg);
+}
+
+button#toggle-chart.arrow.hide {
+    transform: rotate(360deg);
+} */
